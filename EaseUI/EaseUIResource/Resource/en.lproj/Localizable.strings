@@ -403,3 +403,9 @@
 "NSDateCategory.text12" = "aa hh:mm";
 "NSDateCategory.text13" = "M-d HH:mm";
 "NSDateCategory.text14" = "today %@";
+// EaseChatBarMoreView
+"moreView.photo" = "Photo";
+"moreView.location" = "Location";
+"moreView.takePicture" = "Camera";
+"moreView.voiceCall" = "Voice Call";
+"moreView.videoCall" = "Video Call";

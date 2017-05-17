@@ -401,3 +401,9 @@
 "NSDateCategory.text12" = "晚上hh:mm";
 "NSDateCategory.text13" = "昨天HH:mm";
 "NSDateCategory.text14" = "今天 %@";
+// EaseChatBarMoreView
+"moreView.photo" = "相册";
+"moreView.location" = "位置";
+"moreView.takePicture" = "相机";
+"moreView.voiceCall" = "语音聊天";
+"moreView.videoCall" = "视频聊天";

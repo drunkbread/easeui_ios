@@ -23,6 +23,8 @@ typedef enum{
 @property (nonatomic,assign) id<EaseChatBarMoreViewDelegate> delegate;
 
 @property (nonatomic) UIColor *moreViewBackgroundColor UI_APPEARANCE_SELECTOR;  //moreview背景颜色,default whiteColor
+@property (nonatomic) UIColor *moreViewTitleColor UI_APPEARANCE_SELECTOR; // moreView标题颜色,default grayColor
+@property (nonatomic) UIFont *moreViewTitleFont UI_APPEARANCE_SELECTOR; //moreView标题字体,default [UIfont systemFontOfSize:12]
 
 /*
  
@@ -41,6 +43,7 @@ typedef enum{
 - (void)insertItemWithImage:(UIImage*)image
            highlightedImage:(UIImage*)highLightedImage
                       title:(NSString*)title;
+
 
 /*!
  @method
@@ -65,6 +68,12 @@ typedef enum{
  @result
  */
 - (void)removeItematIndex:(NSInteger)index;
+
+
+/**
+ * 删除所有的标题
+ */
+- (void)removeAllTitles;
 
 @end
 
